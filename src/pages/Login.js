@@ -1,12 +1,12 @@
 import { PageTemplate } from "../templates/PageTemplate.js";
 
-export class PageHome extends PageTemplate {
+export class PageLogin extends PageTemplate {
     main() {
         return `
             <main class="container">
                 <div class="row">
                     <div class="col-12">
-                        HOME PAGE CONTENT
+                        LOGIN PAGE CONTENT
                     </div>
                 </div>
             </main>`;
