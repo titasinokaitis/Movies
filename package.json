@@ -1,5 +1,5 @@
 {
-    "name": "movies",
+    "name": "55-grupe-movies",
     "version": "1.0.0",
     "description": "",
     "type": "module",
@@ -10,10 +10,11 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "Titas",
+    "author": "Rimantas (https://github.com/belauzas)",
     "license": "MIT",
     "dependencies": {
         "dotenv": "^17.0.0",
-        "express": "^5.1.0"
+        "express": "^5.1.0",
+        "mysql2": "^3.14.1"
     }
 }
