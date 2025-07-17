@@ -21,4 +21,4 @@ adminPageRouter.get('/categories/new', (req, res) => res.send(new PageAdminCateg
 adminPageRouter.get('/movies', (req, res) => res.send(new PageAdminMovies(req).render()));
 adminPageRouter.get('/movies/published', (req, res) => res.send(new PageAdminMoviesPublished(req).render()));
 adminPageRouter.get('/movies/draft', (req, res) => res.send(new PageAdminMoviesDraft(req).render()));
-adminPageRouter.get('/movies/new', (req, res) => res.send(new PageAdminMoviesNew(req).render()));}
+adminPageRouter.get('/movies/new', (req, res) => res.send(new PageAdminMoviesNew(req).render()));

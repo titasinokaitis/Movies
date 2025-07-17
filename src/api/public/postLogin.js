@@ -94,4 +94,4 @@ export async function postLogin(req, res) {
             action: 'redirect',
             href: '/admin',
         });
-}}
+}

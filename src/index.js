@@ -1,6 +1,6 @@
 import express from 'express';
 import { PORT } from './env.js';
-import { PageError404 } from './pages/public/Error404.js';
+import { PageError404 } from './pages/public/Error401.js';
 import { publicPageRouter } from './routes/publicPageRouter.js';
 import { publicApiRouter } from './routes/publicApiRouter.js';
 import { adminPageRouter } from './routes/adminPageRouter.js';
